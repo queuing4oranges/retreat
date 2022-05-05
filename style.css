@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "FromtheWoods";
+  src: url("fonts/FromtheWoods-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  
+  
+}
+
+header {
+  background-image: url("img/bg.jpg");
+  padding: 150px 0px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+h1 {
+  font-family: "FromtheWoods";
+  text-align: center;
+  color: white;
+  font-size: 140px;
+}
+.circle_right{
+  float: right;
+
+}
+.circle{
+  background-color: #4F6A13;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 35px;
+}
+
+.circle h2{
+  font-weight: 700;
+  font-size: 20px;
+}
+.circle img{
+  width: 30%;
+
+}
+
+footer{
+  background-color: #2D4823;
+  padding: 100px, 0;
+}
